@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(79, 219, 219);
+}
+
+header {
+  padding: 16px 0;
+  color: rgb(41, 41, 212);
+}
+header h1 {
+  font-size: 50px;
+  color: rgb(41, 41, 212);
+}
+header h1,
+section h2,
+section h3 {
+  font-weight: normal;
+}
+header,
+section h2,
+section h3 {
+  font-family: "Curlz MT", cursive;
+  color: blue;
+}
+header li {
+  display: inline;
+  margin-left: 16px;
+  font-size: 30px;
+}
+header li a {
+  color: blue;
+  text-decoration: none;
+  font-size: 40px;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+header .container,
+section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brands-list img {
+  height: 220px;
+}
+.brands-list li {
+  display: inline;
+  margin-right: 10px;
+}
+section .container {
+  align-items: start;
+}
+section {
+  padding: 24px 0;
+}
+section h2 {
+  margin-bottom: 16px;
+}
+section p {
+  margin-bottom: 8px;
+}
+.store-front {
+  margin-right: 32px;
+}
+
+.social img {
+  height: 24px;
+}
+.social li {
+  display: inline;
+  margin-right: 8px;
+}
+.social li a {
+  text-decoration: none;
+}
+
+#contact .container {
+  display: block;
+}
+.contact-method {
+  display: flex;
+  justify-content: space-between;
+}
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+form textarea {
+  resize: none;
+}
+.zap a img {
+  height: 100px;
+}
+
+.store-front {
+  height: 300px;
+}
